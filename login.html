@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
+		<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Login Page!</title>
 	</head>
 
@@ -8,13 +10,14 @@
 		<h1>Login Page</h1>
 		<div>
 			<p>Username:</p>
-			<input type="text">
+			<input class="js-username-box" type="text">
 			<p>Password:</p>
-			<input type="text">
+			<input class="js-password-box" type="text">
 			<div>
-				<a href="main.html">login</a>
-				<a href="signup.html">signup</a>
+				<button class="js-login-button">login</button>
+				<button class="js-signup-button">signup</button>
 			</div>
 		</div>
+		<script src="scripts/login.js" type="module"></script>	
 	</body>
 </html>

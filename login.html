@@ -4,18 +4,21 @@
 		<meta charset="UTF-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Login Page!</title>
+		<link rel="stylesheet" href="styles/login.css">
 	</head>
 
 	<body>
-		<h1>Login Page</h1>
-		<div>
-			<p>Username:</p>
-			<input class="js-username-box" type="text">
-			<p>Password:</p>
-			<input class="js-password-box" type="text">
+		<div class="main-div">
+			<div class="login-title">Login</div>
 			<div>
-				<button class="js-login-button">login</button>
-				<button class="js-signup-button">signup</button>
+				<div class="user-text">Username:</div>
+				<input class="js-username-box input-box" type="text">
+				<div class="pass-text">Password:</div>
+				<input class="js-password-box input-box" type="text">
+				<div class="button-flex">
+					<button class="js-login-button login-button">login</button>
+					<button class="js-signup-button signup-button">signup</button>
+				</div>
 			</div>
 		</div>
 		<script src="scripts/login.js" type="module"></script>	

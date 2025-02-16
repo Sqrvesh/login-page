@@ -1,0 +1,55 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-div {
+	background-color: rgb(199, 199, 199);
+	padding: 30px;
+	border-radius: 15px;
+}
+
+.login-title {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.user-text, .pass-text {
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+.input-box {
+	margin-bottom: 25px;
+	width: 250px;
+	height: 24px;
+	border-radius: 5px;
+	border-style: none;
+}
+
+.button-flex {
+	display: flex;	
+	column-gap: 10px;
+	margin-top: 10px;
+}
+
+.login-button, .signup-button {
+	flex: 1;
+	height: 30px;
+	border-radius: 5px;
+	border-style: none;
+	color: white;
+	background-color: black;
+	cursor: pointer;
+}
+
+.login-button:hover, .signup-button:hover {
+	opacity: 0.75;
+}
+
+.login-button:active, .signup-button:active {
+	opacity: 0.5;
+}
